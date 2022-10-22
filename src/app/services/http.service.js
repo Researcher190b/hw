@@ -67,6 +67,7 @@ http.interceptors.response.use(
     }
 );
 const httpService = {
+    patch: http.patch,
     get: http.get,
     post: http.post,
     put: http.put,
